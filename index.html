@@ -10,7 +10,7 @@
 <link rel="canonical" href="https://ansh-dev11.github.io/">
 <meta name="color-scheme" content="dark">
 <meta name="author" content="Ansh">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://va.vercel-scripts.com; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ansh – Data Science, AI &amp; Game Design Portfolio">
 <meta property="og:description" content="Third-year Computer Science student in Delhi. Data science, AI and game design. Play my games and explore my projects.">
@@ -603,6 +603,10 @@ function init(){
 if(document.readyState==="complete")init();else addEventListener("load",init);
 })();
 </script>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="https://va.vercel-scripts.com/v1/script.js"></script>
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
 </body>
 </html>
