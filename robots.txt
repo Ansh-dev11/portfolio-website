@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ansh-dev11.github.io/sitemap.xml
